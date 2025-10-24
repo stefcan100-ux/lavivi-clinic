@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavivi Aesthetic & Wellness Clinic Pik 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twentytwenty/0.1.3/twentytwenty.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <h3 class="loading-text">Lavivi Clinic</h3>
+            <p class="loading-subtitle">Premium Aesthetic & Wellness</p>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div id="progress-bar"></div>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container">
+        <button class="fab-main" id="fab-main">
+            <i class="fas fa-plus"></i>
+        </button>
+        <div class="fab-menu">
+            <button class="fab-item" data-tooltip="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </button>
+            <button class="fab-item" data-tooltip="Call">
+                <i class="fas fa-phone"></i>
+            </button>
+            <button class="fab-item" data-tooltip="Email">
+                <i class="fas fa-envelope"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">Lavivi Aesthetic & Wellness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#appointment">Appointment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold text-elegant slide-in-left glow-text">Selamat Datang di Lavivi Aesthetic & Wellness Clinic Pik 2</h1>
+                    <p class="lead slide-in-left text-soft">Klinik kecantikan dan kesehatan terdepan di Pik 2, menawarkan perawatan estetika dan wellness yang profesional untuk meningkatkan kepercayaan diri Anda.</p>
+                    <a href="#contact" class="btn btn-elegant btn-lg slide-in-left">Hubungi Kami</a>
+                </div>
+                <div class="col-lg-6 slide-in-right">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Lavivi Clinic Wellness Atmosphere" class="img-fluid rounded shadow-soft">
+                        <div class="floating-elements">
+                            <div class="floating-element element-1">
+                                <i class="fas fa-spa text-rose"></i>
+                            </div>
+                            <div class="floating-element element-2">
+                                <i class="fas fa-heart text-pink"></i>
+                            </div>
+                            <div class="floating-element element-3">
+                                <i class="fas fa-star text-gold"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-primary">Tentang Kami</h2>
+                    <p>Lavivi Aesthetic & Wellness Clinic Pik 2 adalah klinik terkemuka yang berkomitmen untuk memberikan layanan kecantikan dan kesehatan berkualitas tinggi. Dengan tim ahli dan teknologi terkini, kami membantu Anda mencapai penampilan dan kesejahteraan terbaik.</p>
+                    <p>Lokasi strategis di Pik 2 membuat kami mudah diakses. Kami menawarkan konsultasi gratis dan perawatan yang disesuaikan dengan kebutuhan individu Anda.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/500x300/2196F3/FFFFFF?text=About+Us" alt="About Us" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Layanan Kami</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 fade-in-up">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Double Eyelid Stitching" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Eyelid Stitching</h5>
+                            <p class="card-text">Prosedur bedah mata yang aman dan efektif untuk menciptakan lipatan kelopak mata ganda yang alami dan permanen.</p>
+                            <button class="btn btn-primary" onclick="openModal('Double Eyelid Stitching', 'Double eyelid stitching adalah prosedur kosmetik yang menciptakan lipatan kelopak mata ganda. Kami menggunakan teknik bedah minimal invasif dengan anestesi lokal, hasilnya alami dan permanen. Konsultasi gratis tersedia untuk menentukan teknik yang sesuai dengan bentuk wajah Anda.')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Rejuvidrip Infusion" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Rejuvidrip Infusion</h5>
+                            <p class="card-text">Terapi infus vitamin dan nutrisi untuk revitalisasi kulit, meningkatkan energi, dan kesehatan secara keseluruhan.</p>
+                            <button class="btn btn-primary" onclick="openModal('Rejuvidrip Infusion', 'Rejuvidrip Infusion adalah terapi infus intravena yang mengandung vitamin, mineral, dan antioksidan tinggi. Terapi ini membantu merevitalisasi kulit, meningkatkan energi, memperkuat sistem kekebalan tubuh, dan mengurangi stres. Aman dilakukan tanpa downtime.')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Facial Treatment" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Facial Treatment</h5>
+                            <p class="card-text">Perawatan wajah profesional untuk kulit sehat dan bercahaya, termasuk facial, peeling, dan anti-aging.</p>
+                            <button class="btn btn-primary" onclick="openModal('Facial Treatment', 'Layanan facial kami mencakup berbagai treatment seperti deep cleansing, chemical peeling, microdermabrasion, dan anti-aging therapy. Menggunakan produk premium dan teknologi terkini untuk hasil kulit yang sehat, bercahaya, dan muda.')">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Paket & Harga Layanan</h2>
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <div class="btn-group" role="group" aria-label="Filter Kategori">
+                        <button type="button" class="btn btn-outline-primary active" data-filter="all">Semua</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="facial">Facial</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="infusion">Infusion</button>
+                        <button type="button" class="btn btn-outline-primary" data-filter="surgery">Surgery</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row pricing-container">
+                <div class="col-md-4 mb-4 fade-in-up pricing-item" data-category="facial">
+                    <div class="card h-100 shadow-sm pricing-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Basic Facial</h5>
+                            <div class="price mb-3">
+                                <span class="currency">Rp</span>
+                                <span class="amount">150.000</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li>Cleansing</li>
+                                <li>Exfoliation</li>
+                                <li>Moisturizing</li>
+                                <li>30 menit</li>
+                            </ul>
+                            <button class="btn btn-primary">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up pricing-item" data-category="facial">
+                    <div class="card h-100 shadow-sm pricing-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Premium Facial</h5>
+                            <div class="price mb-3">
+                                <span class="currency">Rp</span>
+                                <span class="amount">250.000</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li>Deep Cleansing</li>
+                                <li>Chemical Peel</li>
+                                <li>Massage</li>
+                                <li>60 menit</li>
+                            </ul>
+                            <button class="btn btn-primary">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up pricing-item" data-category="infusion">
+                    <div class="card h-100 shadow-sm pricing-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Rejuvidrip Basic</h5>
+                            <div class="price mb-3">
+                                <span class="currency">Rp</span>
+                                <span class="amount">350.000</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li>Vitamin C</li>
+                                <li>Minerals</li>
+                                <li>Antioksidan</li>
+                                <li>45 menit</li>
+                            </ul>
+                            <button class="btn btn-primary">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up pricing-item" data-category="infusion">
+                    <div class="card h-100 shadow-sm pricing-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Rejuvidrip Premium</h5>
+                            <div class="price mb-3">
+                                <span class="currency">Rp</span>
+                                <span class="amount">500.000</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li>Complete Vitamin Mix</li>
+                                <li>Collagen Boost</li>
+                                <li>Energy Formula</li>
+                                <li>60 menit</li>
+                            </ul>
+                            <button class="btn btn-primary">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up pricing-item" data-category="surgery">
+                    <div class="card h-100 shadow-sm pricing-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Double Eyelid Stitching</h5>
+                            <div class="price mb-3">
+                                <span class="currency">Rp</span>
+                                <span class="amount">2.500.000</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li>Konsultasi</li>
+                                <li>Prosedur Bedah</li>
+                                <li>Follow-up</li>
+                                <li>Garansi</li>
+                            </ul>
+                            <button class="btn btn-primary">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up pricing-item" data-category="facial">
+                    <div class="card h-100 shadow-sm pricing-card popular">
+                        <div class="popular-badge">Populer</div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Anti-Aging Package</h5>
+                            <div class="price mb-3">
+                                <span class="currency">Rp</span>
+                                <span class="amount">750.000</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li>3x Facial Session</li>
+                                <li>1x Infusion</li>
+                                <li>Skincare Products</li>
+                                <li>Consultation</li>
+                            </ul>
+                            <button class="btn btn-primary">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Testimonial Pelanggan</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-item fade-in-up">
+                    <div class="text-center">
+                        <img src="https://via.placeholder.com/100x100/6c757d/FFFFFF?text=A" alt="Customer A" class="rounded-circle mb-3">
+                        <p>"Layanan di Lavivi sangat memuaskan. Hasil perawatan wajah saya luar biasa!"</p>
+                        <h6>- Sari, Jakarta</h6>
+                    </div>
+                </div>
+                <div class="testimonial-item fade-in-up">
+                    <div class="text-center">
+                        <img src="https://via.placeholder.com/100x100/495057/FFFFFF?text=B" alt="Customer B" class="rounded-circle mb-3">
+                        <p>"Program wellness membantu saya merasa lebih sehat dan energik setiap hari."</p>
+                        <h6>- Budi, Jakarta</h6>
+                    </div>
+                </div>
+                <div class="testimonial-item fade-in-up">
+                    <div class="text-center">
+                        <img src="https://via.placeholder.com/100x100/e9ecef/FFFFFF?text=C" alt="Customer C" class="rounded-circle mb-3">
+                        <p>"Tim profesional dan fasilitas modern. Sangat recommended!"</p>
+                        <h6>- Maya, Jakarta</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Gallery Hasil Perawatan</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 fade-in-up">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Before/After Double Eyelid" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <h5>Double Eyelid Stitching</h5>
+                            <p>Hasil alami dan permanen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Before/After Facial" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <h5>Facial Treatment</h5>
+                            <p>Kulit lebih sehat dan bercahaya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 fade-in-up">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Before/After Rejuvidrip" class="img-fluid rounded">
+                        <div class="gallery-overlay">
+                            <h5>Rejuvidrip Infusion</h5>
+                            <p>Energi dan vitalitas meningkat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Pertanyaan Umum</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Apakah perawatan di Lavivi aman?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Ya, semua perawatan di Lavivi dilakukan oleh dokter dan tenaga medis profesional dengan standar keamanan tinggi. Kami menggunakan teknologi terkini dan bahan berkualitas.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Berapa lama waktu pemulihan setelah perawatan?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Waktu pemulihan bervariasi tergantung jenis perawatan. Untuk facial treatment biasanya 1-2 hari, sedangkan untuk prosedur bedah seperti double eyelid stitching sekitar 1-2 minggu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Apakah ada konsultasi gratis?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Ya, kami menyediakan konsultasi gratis untuk semua jenis perawatan. Konsultasi ini akan membantu menentukan perawatan yang sesuai dengan kebutuhan Anda.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Buat Janji Temu</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="appointmentForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="appName" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="appName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="appEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="appEmail" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="appPhone" class="form-label">Nomor Telepon</label>
+                                <input type="tel" class="form-control" id="appPhone" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="appService" class="form-label">Jenis Layanan</label>
+                                <select class="form-control" id="appService" required>
+                                    <option value="">Pilih Layanan</option>
+                                    <option value="Double Eyelid Stitching">Double Eyelid Stitching</option>
+                                    <option value="Rejuvidrip Infusion">Rejuvidrip Infusion</option>
+                                    <option value="Facial Treatment">Facial Treatment</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="appDate" class="form-label">Tanggal & Waktu</label>
+                            <input type="datetime-local" class="form-control" id="appDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="appMessage" class="form-label">Pesan Tambahan</label>
+                            <textarea class="form-control" id="appMessage" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Buat Janji Temu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5 fade-in-up">Sertifikasi & Lisensi</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4 fade-in-up">
+                    <img src="https://via.placeholder.com/150x100/6c757d/FFFFFF?text=Kemenkes+RI" alt="Kemenkes RI" class="img-fluid mb-3">
+                    <h6>Kementerian Kesehatan RI</h6>
+                </div>
+                <div class="col-md-3 mb-4 fade-in-up">
+                    <img src="https://via.placeholder.com/150x100/495057/FFFFFF?text=ISO+9001" alt="ISO 9001" class="img-fluid mb-3">
+                    <h6>ISO 9001 Certified</h6>
+                </div>
+                <div class="col-md-3 mb-4 fade-in-up">
+                    <img src="https://via.placeholder.com/150x100/e9ecef/FFFFFF?text=Halal+Certified" alt="Halal Certified" class="img-fluid mb-3">
+                    <h6>Halal Certified</h6>
+                </div>
+                <div class="col-md-3 mb-4 fade-in-up">
+                    <img src="https://via.placeholder.com/150x100/f8f9fa/FFFFFF?text=BPOM" alt="BPOM" class="img-fluid mb-3">
+                    <h6>BPOM Approved</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary mb-5">Hubungi Kami</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h5>Informasi Kontak</h5>
+                    <p><strong>Alamat:</strong> Pik 2, Jakarta</p>
+                    <p><strong>Telepon:</strong> +62 21 1234 5678</p>
+                    <p><strong>Email:</strong> info@laviviclinic.com</p>
+                    <p><strong>Jam Operasional:</strong> Senin - Sabtu: 09:00 - 18:00</p>
+                    <div class="mt-4">
+                        <h6>Ikuti Kami:</h6>
+                        <a href="#" class="text-primary me-3"><i class="fab fa-facebook-f"></i> Facebook</a>
+                        <a href="#" class="text-primary me-3"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" class="text-primary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModalLabel">Detail Layanan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4 id="modalTitle"></h4>
+                    <p id="modalDesc"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <a href="#contact" class="btn btn-primary" data-bs-dismiss="modal">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Lavivi Aesthetic & Wellness Clinic Pik 2. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
